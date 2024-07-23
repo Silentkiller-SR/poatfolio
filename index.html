@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=devise-width,initial-scale=1.0">
+    
+    <title>Silent Killer SR</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="WhatsApp Image 2024-06-28 at 15.42.24_c87e6152.jpg">
+    <script src="https://kit.fontawesome.com/98a0985455.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contenor">
+            <nev id="nav">
+            <h2 id="my-name" href="#header">SUDHANSU RANJAM</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#potfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nev>
+        <div class="header-text">
+            <p>Web Devloper</p>
+            <h1> Hi, it's <span>Sudhansu Ranjan</span><br> From Gopalganj,Bihar</h1>
+        </div>
+    </div>
+    </div>
+    <!---------about-->
+    <div id="about">
+        <div class="contenor">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="1705843897015.jpg" class="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tital"> About Me</h1>
+                    <p> I'm Web Devloper and Software Devloper from Bihar, India, Working as Web Development Intern at Prasunet Company . I 
+                        enjoy tunning complex problems into simple, Beautiful and intuitive designs<br>
+                        <br>
+                        My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies. </p>
+                    <div class="tab-tital">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>C/C++</span> <br>Software Development </li>
+                            <li> <span>Web Devlopment</span> <br> Web App Development</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Web Devloper Intern at  <span>Prasunet Compny</span> <br> </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li> Web Devlopment at <span> Apna Collage </span> <br> </li>
+                            <li>Persuing B.Tech at  <span>Maharaja Ranjeet Shingh Punjab Techinacl University</span> <br> </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-----------service-->
+    <div id="Service">
+        <div class="container">
+            <h1 class="sub-tital"> My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code fa-rotate-180" style="color: #eaeaeb;"></i>
+                    <h2>Web Devlopment</h2>
+                    <p>High-quality development of sites at the professional leve</p>
+                    <a class="Learn-more" href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted" style="color: #e7e8e9;"></i>
+                    <h2>Software Devlopment</h2>
+                    <p>High-quality development of sites at the professional leve</p>
+                    <a class="Learn-more" href="#">Learn More</a>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!----potfolio-->
+   
+    <!----contact-->
+    <div id="contact">
+        <div class="contenor">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tital">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> ranjansudhanshu734@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9798035295</p>
+                    <div class="socal-icon">
+                        <a href="https://www.facebook.com/Silent.Killer.Sudhanshu?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/%E0%A4%B8%E0%A5%81%E0%A4%A7%E0%A4%BEnshu-ran%E0%A4%9C%E0%A4%A8-95b9292b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                        <a href="https://x.com/silintsarojkuma"><i class="fa-brands fa-x-twitter"></i></i></a>
+                        <a href="https://www.instagram.com/silentkiller_sr?igsh=MTM0amRuODQxaWVh"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2"  download >Downlod CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Masage" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Sudhansu. Made  with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script src="app.js">
+      
+    </script>
+   
+</body>
+</html>
